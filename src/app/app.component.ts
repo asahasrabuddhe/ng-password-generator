@@ -22,7 +22,7 @@ export class AppComponent {
   }
 
   onChangeUseUcLetters() {
-    this.useUcLetters = !this.useLcLetters;
+    this.useUcLetters = !this.useUcLetters;
   }
   onChangeUseLcLetters() {
     this.useLcLetters = !this.useLcLetters;
